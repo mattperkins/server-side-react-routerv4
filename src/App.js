@@ -1,10 +1,15 @@
 import * as React from 'react'
 import { Switch, Route } from 'react-router'
+import HomePage from './HomePage'
 
 class App extends React.Component{
  render(){
   return(
-   <HomePage />
+    <Switch>
+     <Route path="/" render={props => (
+       <HomePage {...props} />
+     )} />
+    </Switch>
   )
  }
 }
