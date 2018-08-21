@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Switch, Route } from 'react-router'
-import HomePage from './HomePage'
+import HomePage from './pages/HomePage'
 
 class App extends React.Component{
  render(){
