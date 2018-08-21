@@ -2,10 +2,10 @@
 ## yarn 
 
 # RUN 
-## yarn start 
+## yarn dev 
 
 # ENDPOINTS 
-## localhost: 
+## localhost:3000 
 
 # DEPLOY 
-## npm build
+## yarn build
